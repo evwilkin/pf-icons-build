@@ -1,0 +1,8 @@
+{
+  "name": "pf-icons-build",
+  "version": "1.0.0",
+  "description": "create couple of builds to show non working tree shaking in PF icons",
+  "main": "index.js",
+  "author": "Martin Marosi",
+  "license": "MIT"
+}
