@@ -1,10 +1,10 @@
 import React from 'react'
-import {CloseIcon} from '@patternfly/react-icons';
+import {SearchDollarIcon} from '@patternfly/react-icons/dist/js';
 
 const Nested = () => {
   return (
     <div>
-      <CloseIcon />
+      <SearchDollarIcon />
     </div>
   )
 }

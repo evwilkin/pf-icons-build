@@ -16,14 +16,8 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
-    "eslint": "^6.6.0",
-    "eslint-loader": "^3.0.2",
-    "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.13.0",
     "rollup": "^1.27.3",
     "rollup-plugin-analyzer": "^3.2.2",
     "rollup-plugin-babel": "^4.3.3",
@@ -34,20 +28,18 @@
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-url": "^3.0.0",
     "rollup-plugin-visualizer": "^3.2.2",
-    "sass-loader": "^8.0.0",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "@material-ui/core": "^4.6.1",
-    "@material-ui/icons": "^4.5.1",
     "@patternfly/react-core": "^3.120.8",
     "@patternfly/react-icons": "^3.14.22",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  }
+  },
+  "sideEffects": [
+    "./src/cjs.js"
+  ]
 }
