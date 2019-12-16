@@ -20,10 +20,10 @@ module.exports = {
     })
   ],
   module: {
-  rules: [{
-      test: /src\/.*\.js$/,
-      exclude: /(node_modules|bower_components)/i,
-      use: [{ loader: 'babel-loader' }]
-  }]
-},
+    rules: [{
+        test: /src\/.*\.js$/,
+        exclude: /(node_modules|bower_components)/i,
+        use: [{ loader: 'babel-loader' }]
+    }]
+  },
 };
